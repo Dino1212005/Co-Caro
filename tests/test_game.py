@@ -1,6 +1,6 @@
 import unittest
 
-from game import CaroGame
+from core.game import CaroGame
 
 
 class TestCaroGame(unittest.TestCase):

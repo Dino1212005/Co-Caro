@@ -127,7 +127,9 @@ def draw_board():
     pygame.draw.line(SCREEN, WHITE, (center_x + 7, center_y - 7), (center_x - 7, center_y + 7), 3)
 
     supervised_label = "6  AI hoc"
-    if not supervised_agent.is_trained:
+    if not supervised_agent.is_available:
+        supervised_label += " (thieu PyTorch)"
+    elif not supervised_agent.is_trained:
         supervised_label += " (chua train)"
     mode_options = (
         (MODE_PVP, "1  Hai nguoi choi"),

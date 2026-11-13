@@ -36,11 +36,12 @@ Hai agent chỉ cần `board`, `current_player` và `legal_actions()`; không s�
 
 ## Cài đặt và chạy
 
-Mở terminal tại thư mục dự án, kích hoạt môi trường ảo rồi cài Pygame nếu chưa có:
+Khuyến nghị dùng Python 3.11 để có sẵn wheel cho các thư viện trên Windows. Mở terminal tại thư mục dự án và cài đầy đủ dependencies:
 
 ```powershell
+py -3.11 -m venv .venv
 .venv\Scripts\activate
-python -m pip install pygame
+python -m pip install -r requirements.txt
 ```
 
 Chạy giao diện:
@@ -68,7 +69,7 @@ Policy network học chọn nước đi từ các ván tự sinh do Heuristic l�
 python -m training.train --games 50 --epochs 12
 ```
 
-Sau khi huấn luyện, khởi động lại game và chọn chế độ 6. Có thể đổi số ván, số epoch hoặc đường dẫn checkpoint bằng các tham số `--games`, `--epochs` và `--output`.
+Sau khi huấn luyện, khởi động lại game và chọn chế độ 6. Có thể đổi số ván, số epoch hoặc đường dẫn checkpoint bằng các tham số `--games`, `--epochs` và `--output`. Chế độ này cần PyTorch để dùng checkpoint; nếu PyTorch không khả dụng hoặc chưa có checkpoint, agent tự dùng Heuristic và nhãn chế độ sẽ báo trạng thái tương ứng.
 
 ## Đấu giải và kiểm thử
 

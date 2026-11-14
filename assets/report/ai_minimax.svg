@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" role="img" aria-labelledby="title desc">
+  <title id="title">Minh hoa Minimax va Alpha-Beta</title>
+  <desc id="desc">Cay tim kiem luan phien MAX MIN, danh gia cac la va cat nhanh khong the cai thien quyet dinh.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#63837A"/></marker>
+    <style>
+      text{font-family:'Segoe UI',Arial,sans-serif;fill:#183B3A}.title{font-size:28px;font-weight:700}.label{font-size:17px;font-weight:600}.small{font-size:14px;fill:#607674}.node{fill:#fff;stroke:#9AB4AB;stroke-width:2}.chosen{fill:#D8F0E5;stroke:#167C69;stroke-width:3}.pruned{stroke:#D35F4C;stroke-width:3;stroke-dasharray:7 7}
+    </style>
+  </defs>
+  <rect width="960" height="520" rx="18" fill="#F2F7F2"/>
+  <text x="40" y="52" class="title">MINIMAX + ALPHA-BETA</text>
+  <text x="40" y="78" class="small">Chon nuoc tot nhat khi doi thu cung choi toi uu</text>
+  <text x="40" y="128" class="label">Cay tim kiem (vi du)</text>
+  <g fill="none" stroke="#829F95" stroke-width="2.5" marker-end="url(#arrow)">
+    <path d="M478 169L270 247M482 169L690 247"/>
+    <path d="M255 282L170 362M285 282L365 362M675 282L595 362"/>
+  </g>
+  <path d="M705 282L785 362" class="pruned"/>
+  <circle cx="480" cy="157" r="34" class="chosen"/><text x="458" y="163" class="label">MAX</text>
+  <circle cx="270" cy="265" r="34" class="chosen"/><text x="248" y="271" class="label">MIN</text>
+  <circle cx="690" cy="265" r="34" class="node"/><text x="668" y="271" class="label">MIN</text>
+  <rect x="139" y="362" width="62" height="52" rx="10" class="node"/><text x="163" y="395" class="label">7</text>
+  <rect x="334" y="362" width="62" height="52" rx="10" class="node"/><text x="358" y="395" class="label">3</text>
+  <rect x="564" y="362" width="62" height="52" rx="10" class="node"/><text x="588" y="395" class="label">2</text>
+  <rect x="754" y="362" width="62" height="52" rx="10" fill="#FBE4DF" stroke="#D35F4C" stroke-width="2" stroke-dasharray="6 5"/><text x="778" y="395" class="label" fill="#A74536">8</text>
+  <text x="714" y="337" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" fill="#A74536">CAT: beta &lt;= alpha</text>
+  <text x="40" y="451" class="small">MIN ben phai da thay gia tri 2, khong the vuot alpha = 3 cua MAX.</text>
+  <rect x="40" y="468" width="880" height="30" rx="9" fill="#E0F2E9"/>
+  <text x="57" y="489" class="small">Ket qua: MAX chon nhanh co gia tri 3; nhanh con lai khong can duyet tiep.</text>
+</svg>

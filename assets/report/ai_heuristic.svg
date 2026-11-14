@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" role="img" aria-labelledby="title desc">
+  <title id="title">Minh hoa Heuristic Agent</title>
+  <desc id="desc">Heuristic Agent uu tien thang ngay, chan doi thu thang ngay, sau do cham diem tan cong va phong thu.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#287B70"/></marker>
+    <style>
+      text{font-family:'Segoe UI',Arial,sans-serif;fill:#183B3A}.title{font-size:28px;font-weight:700}.label{font-size:17px;font-weight:600}.small{font-size:14px;fill:#607674}.card{fill:#fff;stroke:#D5E4DD;stroke-width:1.5}
+    </style>
+  </defs>
+  <rect width="960" height="520" rx="18" fill="#F2F7F2"/>
+  <text x="40" y="52" class="title">HEURISTIC AGENT</text>
+  <text x="40" y="78" class="small">Thu tu uu tien chien thuat truoc khi cham diem the co</text>
+  <rect x="42" y="108" width="360" height="356" rx="14" fill="#E7F0E8"/>
+  <text x="65" y="142" class="label">Vi du tinh huong</text>
+  <g stroke="#9AB4AB" stroke-width="1.5">
+    <path d="M70 168V408M110 168V408M150 168V408M190 168V408M230 168V408M270 168V408M310 168V408M350 168V408"/>
+    <path d="M70 168H350M70 208H350M70 248H350M70 288H350M70 328H350M70 368H350M70 408H350"/>
+  </g>
+  <g stroke="#D35F4C" stroke-width="5" stroke-linecap="round"><path d="m144 281 14 14m0-14-14 14m26 0 14 14m0-14-14 14m26 0 14 14m0-14-14 14"/></g>
+  <circle cx="244" cy="335" r="13" fill="#C8E7D7" stroke="#167C69" stroke-width="4"/>
+  <g fill="#3D83A0"><circle cx="110" cy="208" r="8"/><circle cx="270" cy="248" r="8"/><circle cx="310" cy="328" r="8"/></g>
+  <text x="64" y="440" class="small">X co chuoi 3; o xanh la mot lua chon</text>
+  <text x="462" y="119" class="label">Ra quyet dinh theo thu tu</text>
+  <rect x="462" y="145" width="430" height="74" rx="12" class="card"/>
+  <circle cx="500" cy="182" r="19" fill="#F7DAD3"/><text x="494" y="188" class="label">1</text>
+  <text x="534" y="177" class="label">Co nuoc thang ngay?</text><text x="534" y="200" class="small">Co: chon nuoc thang va dung</text>
+  <path d="M676 221V237" stroke="#287B70" stroke-width="3" marker-end="url(#arrow)"/>
+  <rect x="462" y="247" width="430" height="74" rx="12" class="card"/>
+  <circle cx="500" cy="284" r="19" fill="#D7EAF0"/><text x="494" y="290" class="label">2</text>
+  <text x="534" y="279" class="label">Doi thu co nuoc thang?</text><text x="534" y="302" class="small">Co: chiem o de chan nuoc do</text>
+  <path d="M676 323V339" stroke="#287B70" stroke-width="3" marker-end="url(#arrow)"/>
+  <rect x="462" y="349" width="430" height="92" rx="12" fill="#E0F2E9" stroke="#A6D3C0" stroke-width="1.5"/>
+  <circle cx="500" cy="395" r="19" fill="#167C69"/><text x="494" y="401" font-family="Segoe UI,Arial,sans-serif" font-size="17" font-weight="700" fill="#fff">3</text>
+  <text x="534" y="383" class="label">Neu chua bat buoc: cham diem</text>
+  <text x="534" y="409" class="small">Tan cong + phong thu + thuong gan trung tam</text>
+  <text x="534" y="429" class="small">Chon diem cao nhat; random chi pha hoa</text>
+</svg>

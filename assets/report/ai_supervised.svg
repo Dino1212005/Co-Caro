@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" role="img" aria-labelledby="title desc">
+  <title id="title">Minh hoa Supervised Agent</title>
+  <desc id="desc">Policy network hoc bat chuoc nuoc di cua Heuristic Agent tu vector ban co, sau do bo cac o da chiem va chon logit cao nhat.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#287B70"/></marker>
+    <style>
+      text{font-family:'Segoe UI',Arial,sans-serif;fill:#183B3A}.title{font-size:28px;font-weight:700}.label{font-size:16px;font-weight:600}.small{font-size:13px;fill:#607674}.card{fill:#fff;stroke:#D5E4DD;stroke-width:1.5}.neuron{fill:#fff;stroke:#3D83A0;stroke-width:2}
+    </style>
+  </defs>
+  <rect width="960" height="520" rx="18" fill="#F2F7F2"/>
+  <text x="40" y="52" class="title">SUPERVISED POLICY</text>
+  <text x="40" y="78" class="small">Hoc bat chuoc nuoc di cua Heuristic Agent</text>
+  <rect x="38" y="126" width="180" height="260" rx="14" class="card"/>
+  <text x="58" y="157" class="label">Trang thai</text>
+  <text x="58" y="179" class="small">Ban co 9 x 9</text>
+  <g stroke="#9AB4AB" stroke-width="1.2">
+    <path d="M62 208V336M78 208V336M94 208V336M110 208V336M126 208V336M142 208V336M158 208V336M174 208V336M190 208V336"/>
+    <path d="M62 208H190M62 224H190M62 240H190M62 256H190M62 272H190M62 288H190M62 304H190M62 320H190M62 336H190"/>
+  </g>
+  <g stroke="#D35F4C" stroke-width="3.5" stroke-linecap="round"><path d="m92 237 10 10m0-10-10 10m42 22 10 10m0-10-10 10"/></g>
+  <circle cx="158" cy="301" r="6" fill="#3D83A0"/>
+  <text x="58" y="363" class="small">X=1, O=-1, trong=0</text>
+  <path d="M220 254H260" stroke="#287B70" stroke-width="3" marker-end="url(#arrow)"/>
+  <rect x="268" y="126" width="120" height="260" rx="14" fill="#E7F0E8" stroke="#D5E4DD"/>
+  <text x="288" y="158" class="label">Ma hoa</text><text x="286" y="181" class="small">81 gia tri</text>
+  <g fill="#3D83A0"><circle cx="307" cy="220" r="5"/><circle cx="307" cy="252" r="5"/><circle cx="307" cy="284" r="5"/><circle cx="307" cy="316" r="5"/></g>
+  <g fill="#167C69"><rect x="327" y="216" width="38" height="8" rx="4"/><rect x="327" y="248" width="38" height="8" rx="4"/><rect x="327" y="280" width="38" height="8" rx="4"/><rect x="327" y="312" width="38" height="8" rx="4"/></g>
+  <path d="M390 254H421" stroke="#287B70" stroke-width="3" marker-end="url(#arrow)"/>
+  <rect x="430" y="126" width="218" height="260" rx="14" class="card"/>
+  <text x="451" y="158" class="label">Policy network</text>
+  <text x="451" y="181" class="small">81 dau vao - 81 dau ra</text>
+  <g stroke="#B6CCC3" stroke-width="1.2" opacity=".8">
+    <path d="M476 218L528 202M476 218L528 244M476 254L528 202M476 254L528 244M476 290L528 244M476 290L528 286M476 326L528 286M476 326L528 328"/>
+    <path d="M548 202L600 218M548 202L600 254M548 244L600 254M548 244L600 290M548 286L600 290M548 286L600 326M548 328L600 326"/>
+  </g>
+  <g><circle cx="476" cy="218" r="8" class="neuron"/><circle cx="476" cy="254" r="8" class="neuron"/><circle cx="476" cy="290" r="8" class="neuron"/><circle cx="476" cy="326" r="8" class="neuron"/>
+    <circle cx="538" cy="202" r="9" class="neuron"/><circle cx="538" cy="244" r="9" class="neuron"/><circle cx="538" cy="286" r="9" class="neuron"/><circle cx="538" cy="328" r="9" class="neuron"/>
+    <circle cx="610" cy="218" r="8" class="neuron"/><circle cx="610" cy="254" r="8" class="neuron"/><circle cx="610" cy="290" r="8" class="neuron"/><circle cx="610" cy="326" r="8" class="neuron"/></g>
+  <text x="468" y="358" class="small">Linear + ReLU + Linear</text>
+  <path d="M650 254H684" stroke="#287B70" stroke-width="3" marker-end="url(#arrow)"/>
+  <rect x="694" y="126" width="228" height="260" rx="14" class="card"/>
+  <text x="716" y="158" class="label">Diem cho tung o</text>
+  <text x="716" y="181" class="small">Mask o da co quan, chon argmax</text>
+  <g stroke="#9AB4AB" stroke-width="1.3">
+    <path d="M720 212V340M742 212V340M764 212V340M786 212V340M808 212V340M830 212V340M852 212V340M874 212V340M896 212V340"/>
+    <path d="M720 212H896M720 228H896M720 244H896M720 260H896M720 276H896M720 292H896M720 308H896M720 324H896M720 340H896"/>
+  </g>
+  <rect x="807" y="275" width="23" height="18" rx="4" fill="#B8E3D0" stroke="#167C69" stroke-width="3"/>
+  <rect x="764" y="244" width="22" height="18" fill="#D9DEDC"/><path d="M765 245L785 261M785 245L765 261" stroke="#6B7875" stroke-width="2"/>
+  <rect x="852" y="308" width="22" height="18" fill="#D9DEDC"/><path d="M853 309L873 325M873 309L853 325" stroke="#6B7875" stroke-width="2"/>
+  <rect x="38" y="414" width="884" height="62" rx="12" fill="#E0F2E9" stroke="#A6D3C0"/>
+  <text x="59" y="440" class="label">Du lieu giao vien: Heuristic Agent -> trang thai / nuoc di -> huan luyen Cross Entropy</text>
+  <text x="59" y="462" class="small">Mo hinh hoc bat chuoc chinh sach giao vien; chat luong can duoc do bang thu nghiem rieng.</text>
+</svg>

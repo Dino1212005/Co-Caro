@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" role="img" aria-labelledby="title desc">
+  <title id="title">Minh hoa Random Agent</title>
+  <desc id="desc">Random Agent chon ngau nhien mot giao diem trong tap cac o con trong tren ban Co Caro.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#287B70"/></marker>
+    <style>
+      text{font-family:'Segoe UI',Arial,sans-serif;fill:#183B3A}.title{font-size:28px;font-weight:700}.label{font-size:17px;font-weight:600}.small{font-size:14px;fill:#607674}.grid{stroke:#9AB4AB;stroke-width:1.5}.cell{fill:#fff}.card{fill:#fff;stroke:#D5E4DD;stroke-width:1.5}
+    </style>
+  </defs>
+  <rect width="960" height="520" rx="18" fill="#F2F7F2"/>
+  <text x="40" y="52" class="title">RANDOM AGENT</text>
+  <text x="40" y="78" class="small">Chon mot nuoc di hop le, khong cham diem the co</text>
+  <rect x="42" y="104" width="372" height="372" rx="12" fill="#E7F0E8"/>
+  <g class="grid">
+    <path d="M62 124V444M102 124V444M142 124V444M182 124V444M222 124V444M262 124V444M302 124V444M342 124V444M382 124V444"/>
+    <path d="M62 124H382M62 164H382M62 204H382M62 244H382M62 284H382M62 324H382M62 364H382M62 404H382M62 444H382"/>
+  </g>
+  <g fill="#287B70" opacity=".55">
+    <circle cx="102" cy="244" r="5"/><circle cx="182" cy="164" r="5"/><circle cx="262" cy="284" r="5"/><circle cx="342" cy="204" r="5"/>
+  </g>
+  <g stroke="#D35F4C" stroke-width="5" stroke-linecap="round"><path d="m132 214 20 20m0-20-20 20"/></g>
+  <circle cx="222" cy="284" r="13" fill="#fff" stroke="#3D83A0" stroke-width="4"/>
+  <circle cx="302" cy="364" r="17" fill="#B8E3D0" stroke="#167C69" stroke-width="4"/>
+  <circle cx="302" cy="364" r="5" fill="#167C69"/>
+  <text x="62" y="497" class="small">Cham do: X</text><circle cx="53" cy="491" r="7" fill="none" stroke="#3D83A0" stroke-width="3"/>
+  <text x="190" y="497" class="small">O trong co the chon</text><circle cx="179" cy="491" r="6" fill="#287B70"/>
+  <text x="371" y="497" class="small">Nuoc duoc chon</text><circle cx="359" cy="491" r="7" fill="#167C69"/>
+  <text x="472" y="120" class="label">Quy trinh chon nuoc</text>
+  <rect x="470" y="148" width="420" height="76" rx="12" class="card"/>
+  <circle cx="506" cy="186" r="18" fill="#D9EEE5"/><text x="501" y="192" class="label">1</text>
+  <text x="540" y="181" class="label">Lay danh sach o trong</text><text x="540" y="204" class="small">Tu game.legal_actions()</text>
+  <path d="M680 226V248" stroke="#287B70" stroke-width="3" marker-end="url(#arrow)"/>
+  <rect x="470" y="258" width="420" height="76" rx="12" class="card"/>
+  <circle cx="506" cy="296" r="18" fill="#D9EEE5"/><text x="501" y="302" class="label">2</text>
+  <text x="540" y="291" class="label">Chon ngau nhien mot o</text><text x="540" y="314" class="small">Seed tuy chon de tai lap phep thu</text>
+  <path d="M680 336V358" stroke="#287B70" stroke-width="3" marker-end="url(#arrow)"/>
+  <rect x="470" y="368" width="420" height="76" rx="12" fill="#E0F2E9" stroke="#A6D3C0" stroke-width="1.5"/>
+  <circle cx="506" cy="406" r="18" fill="#167C69"/><text x="501" y="412" font-family="Segoe UI,Arial,sans-serif" font-size="17" font-weight="700" fill="#fff">3</text>
+  <text x="540" y="401" class="label">Tra ve nuoc di hop le</text><text x="540" y="424" class="small">Khong sua trang thai ban co khi chon</text>
+</svg>

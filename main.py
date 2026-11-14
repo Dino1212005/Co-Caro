@@ -132,11 +132,11 @@ def draw_board():
     elif not supervised_agent.is_trained:
         supervised_label += " (chua train)"
     mode_options = (
-        (MODE_PVP, "1  Hai nguoi choi"),
-        (MODE_RANDOM, "2  AI Random"),
-        (MODE_HEURISTIC, "3  AI Heuristic"),
-        (MODE_MINIMAX, "4  Minimax + Alpha-Beta"),
-        (MODE_MCTS, "5  Monte Carlo (MCTS)"),
+        (MODE_PVP, "1.  Hai nguoi choi"),
+        (MODE_RANDOM, "2.  AI Random"),
+        (MODE_HEURISTIC, "3.  AI Heuristic"),
+        (MODE_MINIMAX, "4. Minimax + Alpha-Beta"),
+        (MODE_MCTS, "5.s  Monte Carlo (MCTS)"),
         (MODE_SUPERVISED, supervised_label),
     )
     mode_buttons = {}
